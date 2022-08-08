@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Communicator</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="telegram">Telegram</string>
+    <string name="choose_service">Choose Service</string>
+    <string name="send_message">Send a Message</string>
+    <string name="without_saving_a_number">Without saving a number</string>
+    <string name="back">Back</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="local">Local</string>
+    <string name="universal">Universal</string>
+    <string name="enter_the_number">Enter The Number</string>
+    <string name="enter_country_code">Enter Country Code</string>
+    <string name="message">Message</string>
+    <string name="clear">Clear</string>
+
+    <string-array name="telegramOptions">
+        <item>Select</item>
+        <item>User Name</item>
+        <item>User Number</item>
+    </string-array>
+
+</resources>

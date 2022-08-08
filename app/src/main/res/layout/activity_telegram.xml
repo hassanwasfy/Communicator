@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#93C3F6"
+    tools:context=".Telegram">
+
+    <Spinner
+        android:id="@+id/telegramOptionArray"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:entries="@array/telegramOptions"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/color18"
+        android:layout_margin="25dp"
+        />
+
+    <EditText
+        android:id="@+id/etTelegramUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_user_name"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/telegramUserMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="11"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/mobile_number"
+        android:inputType="phone"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnTelegramMSgNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="@string/send_message" />
+
+    <Button
+        android:id="@+id/btnTelegramMSgUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:text="@string/send_message" />
+
+
+    <Button
+        android:id="@+id/btnTelegramBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="@string/back" />
+
+</LinearLayout>

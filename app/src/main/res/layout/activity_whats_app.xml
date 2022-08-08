@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#92E6A8"
+    android:layout_height="match_parent"
+    tools:context=".WhatsApp">
+
+
+    <RadioGroup
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rbLocal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/local" />
+
+        <RadioButton
+            android:id="@+id/rbUniversal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/universal" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etMsgNumber"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="@string/enter_the_number"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="11"
+        android:layout_margin="15dp"
+        android:inputType="number"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etCountryCode"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:hint="@string/enter_country_code"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="11"
+        android:inputType="number"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnLocal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/message" />
+    <Button
+        android:id="@+id/btnUniversal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/message" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear" />
+
+    <Button
+        android:id="@+id/btnWhatstoMainScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/back"
+        />
+
+</LinearLayout>
